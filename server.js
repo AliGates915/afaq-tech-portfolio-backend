@@ -7,7 +7,7 @@ import contactRoutes from "./routes/contact.js";
  const app=express();
 await connectDB();
 app.use(cors({
-    origin:["http://localhost:3000","https://afaq-tech-portfolio.vercel.app"],
+    origin:["http://localhost:3000","https://afaq-tech-portfolio.vercel.app","https://afaq-technologies-portfolio.vercel.app"],
     methods:["GET","POST","PUT","DELETE"],
     credentials:true
 }));
